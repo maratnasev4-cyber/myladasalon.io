@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>LADA Автосалон - Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Шапка -->
+        <header class="header">
+            <div class="logo">
+                <img src="logo/1.png" alt="Логотип" class="logo-img">
+                <span>LADA Центр</span>
+            </div>
+            <div class="header-user" id="headerUser">
+                <span class="guest-text">Гость</span>
+                <a href="login.html" class="login-link">Войти</a>
+            </div>
+        </header>
+
+        <!-- Основной контент -->
+        <div class="main-container">
+            <main class="content">
+                
+                <!-- ===== ПЕРВЫЙ БЛОК (текст и преимущества) ===== -->
+                <div class="welcome-block">
+                    <div class="welcome-header">
+                        <h1 class="welcome-title">Добро пожаловать в <span class="highlight">LADA Центр</span></h1>
+                        <p class="welcome-subtitle">Официальный дилер LADA в Нальчике</p>
+                        <div class="welcome-divider"></div>
+                        <p class="welcome-description">Мы предлагаем широкий выбор автомобилей LADA, профессиональное обслуживание и выгодные условия покупки. Наш автосалон работает для вас с 2010 года.</p>
+                    </div>
+
+                    <div class="advantages-grid">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"></div>
+                            <div class="advantage-content">
+                                <h3 class="advantage-title">Официальная гарантия</h3>
+                                <p class="advantage-text">Полная гарантия от LADA на все автомобили</p>
+                            </div>
+                        </div>
+                        <div class="advantage-card">
+                            <div class="advantage-icon"></div>
+                            <div class="advantage-content">
+                                <h3 class="advantage-title">Кредит и рассрочка 0%</h3>
+                                <p class="advantage-text">Специальные условия кредитования</p>
+                            </div>
+                        </div>
+                        <div class="advantage-card">
+                            <div class="advantage-icon"></div>
+                            <div class="advantage-content">
+                                <h3 class="advantage-title">Trade-in до 100 000 ₽</h3>
+                                <p class="advantage-text">Выгодный обмен вашего авто на новый</p>
+                            </div>
+                        </div>
+                        <div class="advantage-card">
+                            <div class="advantage-icon"></div>
+                            <div class="advantage-content">
+                                <h3 class="advantage-title">Бесплатное ТО при покупке</h3>
+                                <p class="advantage-text">Первое техническое обслуживание в подарок</p>
+                            </div>
+                        </div>
+                        <div class="advantage-card">
+                            <div class="advantage-icon"></div>
+                            <div class="advantage-content">
+                                <h3 class="advantage-title">Доставка на дом</h3>
+                                <p class="advantage-text">Бесплатная доставка автомобиля</p>
+                            </div>
+                        </div>
+                        <div class="advantage-card">
+                            <div class="advantage-icon"></div>
+                            <div class="advantage-content">
+                                <h3 class="advantage-title">Обмен старого на новый</h3>
+                                <p class="advantage-text">Любая марка авто принимается</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="welcome-cta">
+                        <p class="cta-text">Заполните заявку на нашем сайте, и менеджер свяжется с вами в ближайшее время!</p>
+                        <a href="new-order.html" class="cta-button">Оставить заявку</a>
+                    </div>
+                </div>
+
+                <!-- СЛАЙДЕР (БАННЕР) - ИСПРАВЛЕННЫЙ -->
+                <div class="hero-slider">
+                    <div class="slider-container">
+                        <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://storage.yandexcloud.net/cdn.carso.ru/uploads/new_car/2910/colors/lada_vesta_ng_1.png');">
+                            <div class="slide-content">
+                                <h2>LADA Vesta</h2>
+                                <p class="slide-offer">Кредит от 9.9% на новый автомобиль</p>
+                                <p class="slide-desc">Первоначальный взнос от 10% | Срок до 7 лет</p>
+                                <a href="new-order.html" class="btn-slide">Оставить заявку</a>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://avtovek-ekb.ru/wp-content/uploads/2025/07/687a05131300f_techno_672.webp');">
+                            <div class="slide-content">
+                                <h2>Новая LADA Iskra</h2>
+                                <p class="slide-offer">Современный дизайн и экономичность</p>
+                                <p class="slide-desc">Старт продаж | Двигатель 1.6 л | От 1 000 000 ₽</p>
+                                <a href="new-order.html" class="btn-slide">Узнать больше</a>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://www.pragmaticar.ru/uploads/model-colors/5b15029f29843ee3ab2346950d39c2b5.png');">
+                            <div class="slide-content">
+                                <h2>LADA Niva Travel</h2>
+                                <p class="slide-offer">Trade-in со скидкой до 150 000 ₽</p>
+                                <p class="slide-desc">Сдайте старый автомобиль и получите доплату на новый</p>
+                                <a href="new-order.html" class="btn-slide">Оставить заявку</a>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://lada.bashauto.com/media/slider/aura.png');">
+                            <div class="slide-content">
+                                <h2>LADA Aura</h2>
+                                <p class="slide-offer">Лизинг для бизнеса от 0%</p>
+                                <p class="slide-desc">Для ИП и юридических лиц | Специальные условия</p>
+                                <a href="new-order.html" class="btn-slide">Получить предложение</a>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://www.pragmaticar.ru/uploads/model-colors/badccc703ba59b5f604040922542f2f7.png');">
+                            <div class="slide-content">
+                                <h2>LADA Largus Cross</h2>
+                                <p class="slide-offer">Семейный универсал на 7 мест</p>
+                                <p class="slide-desc">Кредит 0% на 3 месяца | Спецпредложение</p>
+                                <a href="new-order.html" class="btn-slide">Заказать тест-драйв</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+
+                <!-- НОВОСТИ И АКЦИИ -->
+                <div class="news-section">
+                    <div class="news-container">
+                        <h2 class="news-title">Новости и акции</h2>
+                        <div class="news-grid">
+                            <div class="news-card">
+                                <div class="news-date">15 марта 2026</div>
+                                <h3 class="news-card-title">Старт продаж LADA Iskra</h3>
+                                <p class="news-excerpt">Новая модель LADA Iskra уже доступна для заказа. Современный дизайн, экономичные двигатели и доступная цена.</p>
+                                <a href="new-order.html" class="news-link">Узнать подробнее →</a>
+                            </div>
+                            <div class="news-card">
+                                <div class="news-date">10 марта 2026</div>
+                                <h3 class="news-card-title">Кредит 9.9% на LADA Vesta</h3>
+                                <p class="news-excerpt">Специальная программа кредитования на LADA Vesta. Первоначальный взнос от 10%, срок до 7 лет.</p>
+                                <a href="new-order.html" class="news-link">Оставить заявку →</a>
+                            </div>
+                            <div class="news-card">
+                                <div class="news-date">5 марта 2026</div>
+                                <h3 class="news-card-title">Trade-in до 150 000 ₽</h3>
+                                <p class="news-excerpt">Сдайте старый автомобиль и получите доплату на новый LADA. Оценка за 1 день.</p>
+                                <a href="new-order.html" class="news-link">Оценить авто →</a>
+                            </div>
+                            <div class="news-card">
+                                <div class="news-date">1 марта 2026</div>
+                                <h3 class="news-card-title">Лизинг для бизнеса от 0%</h3>
+                                <p class="news-excerpt">Специальные условия лизинга для ИП и юридических лиц. Без первоначального взноса.</p>
+                                <a href="new-order.html" class="news-link">Получить предложение →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Боковое меню -->
+            <nav class="vertical-menu">
+                <ul>
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="models.html">Модельный ряд</a></li>
+                    <li><a href="register.html">Регистрация</a></li>
+                    <li><a href="login.html">Авторизация</a></li>
+                    <li><a href="orders.html">Мои заявки</a></li>
+                    <li><a href="new-order.html">Новая заявка</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Подвал -->
+        <footer class="footer">
+            <p>&copy; 2026 LADA Центр. Все права защищены.</p>
+            <p>г. Нальчик ул. Ленина 70 | Телефон: +7 (495) 123-45-67</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

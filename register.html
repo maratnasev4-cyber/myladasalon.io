@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация - LADA Автосалон</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">
+                <img src="logo/1.png" alt="Логотип" class="logo-img">
+                <span>LADA Центр</span>
+            </div>
+            <div class="header-user" id="headerUser">
+                <span class="guest-text">Гость</span>
+                <a href="login.html" class="login-link">Войти</a>
+            </div>
+        </header>
+
+        <div class="main-container">
+            <nav class="vertical-menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="models.html">Модельный ряд</a></li>
+                    <li><a href="register.html" class="active">Регистрация</a></li>
+                    <li><a href="login.html">Авторизация</a></li>
+                    <li><a href="orders.html">Мои заявки</a></li>
+                    <li><a href="new-order.html">Новая заявка</a></li>
+                </ul>
+            </nav>
+
+            <main class="content">
+                <h1>Регистрация нового пользователя</h1>
+                <form id="registerForm" class="form-card">
+                    <div class="form-group">
+                        <label for="login">Логин *</label>
+                        <input type="text" id="login" name="login" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Пароль *</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="fio">ФИО *</label>
+                        <input type="text" id="fio" name="fio" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон *</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+7 (999) 123-45-67">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Электронная почта *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <button type="submit" class="btn-primary">Зарегистрироваться</button>
+                    <div id="registerMessage" class="message-area"></div>
+                </form>
+                <p>Уже есть аккаунт? <a href="login.html">Войдите</a></p>
+            </main>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2025 LADA Центр. Все права защищены.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
